@@ -1,0 +1,58 @@
+﻿<Page x:Class="POS.Supp"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:POS"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Supp">
+
+    <Grid Background="#fff">
+        <Grid HorizontalAlignment="Left" Height="450" Margin="10,0,0,0" VerticalAlignment="Top" Width="595">
+            <Label Content="Supplier" HorizontalAlignment="Left" Margin="214,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.487,1"
+              Foreground="#171c23" FontSize="35"/>
+            <Line X1="800" Y1="70" Y2="70" Stroke="#171c23" StrokeThickness="2" />
+            <materialDesign:PackIcon Kind="TruckDelivery" RenderTransformOrigin="1.688,1.625" Height="47" Width="78" Margin="38,10,0,0" Foreground="Teal"/>
+            <Label Content="Supplier ID" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top"
+               Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Address" HorizontalAlignment="Left" Margin="354,75,0,0" VerticalAlignment="Top"
+            Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Company Name" HorizontalAlignment="Left" Margin="187,80,0,0" VerticalAlignment="Top"
+               Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="City" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Region" HorizontalAlignment="Left" Margin="187,146,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Postal Code" HorizontalAlignment="Left" Margin="354,146,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Country" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Label Content="Email" HorizontalAlignment="Left" Margin="187,220,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <TextBox x:Name="SupplierID" HorizontalAlignment="Left" Height="23" Margin="10,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" PreviewTextInput="NumberValidationTextBox" MaxLength="5"/>
+            <TextBox x:Name="CompanyName" HorizontalAlignment="Left" Height="23" Margin="187,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="Address" HorizontalAlignment="Left" Height="23" Margin="363,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="City" HorizontalAlignment="Left" Height="23" Margin="10,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="Region" HorizontalAlignment="Left" Height="23" Margin="187,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+            <TextBox x:Name="Postal" HorizontalAlignment="Left" Height="23" Margin="363,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" PreviewTextInput="NumberValidationTextBox" MaxLength="4"/>
+            <Label Content="Phone" HorizontalAlignment="Left" Margin="363,220,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+
+            <Button x:Name="SuppAdd" Content="Add" HorizontalAlignment="Left" Margin="363,293,0,0" VerticalAlignment="Top" Width="148" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="SuppAdd_Click" Height="29"/>
+            <Button x:Name="SuppEdit" Content="Edit" HorizontalAlignment="Left" Margin="363,327,0,0" VerticalAlignment="Top" Width="148" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="SuppEdit_Click" Height="29"/>
+            <Button Content="Logout" HorizontalAlignment="Left" Margin="425,0,0,393" VerticalAlignment="Bottom" Width="86" Height="47" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="Button_Click"/>
+            <TextBox x:Name="Search" HorizontalAlignment="Left" Height="23" Margin="10,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" PreviewTextInput="NumberValidationTextBox"/>
+            <Label Content="Search" HorizontalAlignment="Left" Margin="10,287,0,0" VerticalAlignment="Top"
+                Foreground="#171c23" FontSize="12" RenderTransformOrigin="0.546,-0.064"/>
+            <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top" Width="148" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="BtnSearch_Click" Height="29"/>
+            <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="363,401,0,0" VerticalAlignment="Top" Width="148" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="BtnClear_Click"  Height="29"/>
+            <Button x:Name="SuppDelete" Content="Remove" HorizontalAlignment="Left" Margin="363,367,0,0" VerticalAlignment="Top" Width="148" BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="SuppDelete_Click"  Height="29"/>
+
+        </Grid>
+        <TextBox x:Name="Country" HorizontalAlignment="Left" Height="23" Margin="22,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" RenderTransformOrigin="0.135,0.435"/>
+        <TextBox x:Name="Email" HorizontalAlignment="Left" Height="23" Margin="199,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="Phone" HorizontalAlignment="Left" Height="23" Margin="373,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" PreviewTextInput="NumberValidationTextBox" MaxLength="10"/>
+    </Grid>
+</Page>

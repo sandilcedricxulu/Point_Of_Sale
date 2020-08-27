@@ -1,0 +1,60 @@
+﻿<Page x:Class="POS.SalePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:POS"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SalePage" Height="500">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="107*"/>
+            <RowDefinition Height="118*"/>
+        </Grid.RowDefinitions>
+        <DockPanel LastChildFill="False" Width="800" Grid.RowSpan="2">
+            <Grid DockPanel.Dock="Top" Background="Teal" Height="65">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="121*"/>
+                    <ColumnDefinition Width="39*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Cashier" HorizontalAlignment="Left" Margin="364,5,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.865,1.022"
+                        FontSize="30" Foreground="#fff"/>
+                <materialDesign:PackIcon Kind="Trolley" Height="45" Width="62" Margin="79,10,0,0" Foreground="#fff"/>
+                <materialDesign:PackIcon Kind="AccountCircle" Height="45" Width="57" Margin="22,10,0,0"  Foreground="#fff"/>
+                <Button Content="Logout" HorizontalAlignment="Left" Margin="88,10,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.067,0.6" Height="40" Foreground="#fff" BorderBrush="#fff" Background="Teal" Grid.Column="1" Click="Button_Click_1"/>
+                <Button Content="Back" HorizontalAlignment="Left" Margin="602,10,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.067,0.6" Height="40" Foreground="#fff" BorderBrush="#fff" Background="Teal" Click="Back_Click" Grid.ColumnSpan="2"/>
+            </Grid>
+            <Grid DockPanel.Dock="Left" Background="#fff" Width="398">
+                <DataGrid Name="invoiceGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" Height="435" VerticalAlignment="Top" Width="366" Background="#fff" Foreground="Teal" BorderBrush="Transparent">
+                    <DataGrid.Columns>
+                        <!--<DataGridTextColumn Binding="{Binding ProductName}" Header="Product Name" Width="50"/>
+                        <DataGridTextColumn Binding="{Binding UnitPrice}" Header="Price" Width="50"/>-->
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+            <Grid DockPanel.Dock="Right" Background="#fff" Width="403">
+                <Label Content="Bar Code" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="12"/>
+                <TextBox x:Name="BarCode" HorizontalAlignment="Left" Height="26" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="221" PreviewTextInput="NumberValidationTextBox"/>
+                <Button x:Name="btnScan" Content="Scan" Margin="10,74,285,0" VerticalAlignment="Top" Height="27" Background="Teal" Foreground="#fff" Click="Button_Click"/>
+
+                <Label Content="Tendered Amount" FontSize="12" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" />
+                <TextBox x:Name="tenderedAmount"  HorizontalAlignment="Left" Height="26" Margin="10,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="221" PreviewTextInput="NumberValidationTextBox"/>
+                <Button x:Name="Purchase"  Content="Purchase/Get Change" Margin="10,177,172,0" VerticalAlignment="Top" Height="27" Background="Teal" Foreground="#fff" RenderTransformOrigin="0.331,2.718" Click="Purchase_Click"/>
+
+                <Label FontSize="12" Content="Change:" HorizontalAlignment="Left" Margin="15,224,0,0" VerticalAlignment="Top" />
+                <Label Content="Total Amount (With VAT):" FontSize="12" HorizontalAlignment="Left" Margin="15,261,0,0" VerticalAlignment="Top" />
+
+                <!--Amount Labels-->
+                <Label x:Name="changeLabel" FontSize="13" Content="R..." HorizontalAlignment="Left" Margin="206,224,0,0" VerticalAlignment="Top" />
+                <Label x:Name="totalLabel" FontSize="13" Content="R..." HorizontalAlignment="Left" Margin="206,261,0,0" VerticalAlignment="Top"/>
+                <Button x:Name="btnDone" Content="Done" Margin="123,74,172,0" VerticalAlignment="Top" Height="27" Background="Teal" Foreground="#fff" Click="BtnDone_Click"/>
+                <Separator Background="Teal" HorizontalAlignment="Left" Height="32" Margin="0,341,0,0" VerticalAlignment="Top" Width="403"/>
+                <Button x:Name="btnClear"  Content="Next Customer" Margin="10,373,172,0" VerticalAlignment="Top" Height="27" Background="Teal" Foreground="#fff" RenderTransformOrigin="0.331,2.718" Click="BtnClear_Click"/>
+
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Page>

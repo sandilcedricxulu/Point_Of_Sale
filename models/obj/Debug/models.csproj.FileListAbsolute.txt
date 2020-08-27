@@ -1,0 +1,12 @@
+C:\Users\smced\source\repos\POS\models\bin\Debug\models.dll
+C:\Users\smced\source\repos\POS\models\bin\Debug\models.pdb
+C:\Users\smced\source\repos\POS\models\obj\Debug\models.csproj.CoreCompileInputs.cache
+C:\Users\smced\source\repos\POS\models\obj\Debug\models.dll
+C:\Users\smced\source\repos\POS\models\obj\Debug\models.pdb
+C:\Users\smced\source\repos\POS\models\obj\Debug\models.csprojAssemblyReference.cache
+C:\Users\Sandile Cedric\source\repos\POS\models\bin\Debug\models.dll
+C:\Users\Sandile Cedric\source\repos\POS\models\bin\Debug\models.pdb
+C:\Users\Sandile Cedric\source\repos\POS\models\obj\Debug\models.csprojAssemblyReference.cache
+C:\Users\Sandile Cedric\source\repos\POS\models\obj\Debug\models.csproj.CoreCompileInputs.cache
+C:\Users\Sandile Cedric\source\repos\POS\models\obj\Debug\models.dll
+C:\Users\Sandile Cedric\source\repos\POS\models\obj\Debug\models.pdb

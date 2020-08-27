@@ -1,0 +1,150 @@
+C:\Users\smced\source\repos\POS\POS\bin\Debug\POS.exe.config
+C:\Users\smced\source\repos\POS\POS\bin\Debug\POS.exe
+C:\Users\smced\source\repos\POS\POS\bin\Debug\POS.pdb
+C:\Users\smced\source\repos\POS\POS\bin\Debug\DataLayer.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\MaterialDesignColors.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\models.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\DataLayer.pdb
+C:\Users\smced\source\repos\POS\POS\bin\Debug\models.pdb
+C:\Users\smced\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\smced\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.csprojAssemblyReference.cache
+C:\Users\smced\source\repos\POS\POS\obj\Debug\AdminHome.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\AdminOptions.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Cat.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\emp.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\history.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Home.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\MainWindow.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Prod.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Register.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\SalePage.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\supervisor.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Supp.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\App.g.cs
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS_MarkupCompile.cache
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS_MarkupCompile.lref
+C:\Users\smced\source\repos\POS\POS\obj\Debug\AdminHome.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\AdminOptions.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Cat.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\emp.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\history.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Home.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\MainWindow.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Prod.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Register.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\SalePage.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\supervisor.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\Supp.baml
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.g.resources
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.csproj.GenerateResource.cache
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.csproj.CopyComplete
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.exe
+C:\Users\smced\source\repos\POS\POS\obj\Debug\POS.pdb
+C:\Users\smced\source\repos\POS\POS\bin\Debug\ExcelLibrary.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\itextsharp.dll
+C:\Users\smced\source\repos\POS\POS\bin\Debug\itextsharp.xml
+E:\POS\POS\bin\Debug\POS.exe.config
+E:\POS\POS\bin\Debug\POS.exe
+E:\POS\POS\bin\Debug\POS.pdb
+E:\POS\POS\bin\Debug\DataLayer.dll
+E:\POS\POS\bin\Debug\ExcelLibrary.dll
+E:\POS\POS\bin\Debug\itextsharp.dll
+E:\POS\POS\bin\Debug\MaterialDesignColors.dll
+E:\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\POS\POS\bin\Debug\models.dll
+E:\POS\POS\bin\Debug\DataLayer.pdb
+E:\POS\POS\bin\Debug\models.pdb
+E:\POS\POS\bin\Debug\itextsharp.xml
+E:\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\POS\POS\obj\Debug\POS.csprojAssemblyReference.cache
+E:\POS\POS\obj\Debug\AdminHome.g.cs
+E:\POS\POS\obj\Debug\AdminOptions.g.cs
+E:\POS\POS\obj\Debug\Cat.g.cs
+E:\POS\POS\obj\Debug\emp.g.cs
+E:\POS\POS\obj\Debug\history.g.cs
+E:\POS\POS\obj\Debug\Home.g.cs
+E:\POS\POS\obj\Debug\MainWindow.g.cs
+E:\POS\POS\obj\Debug\Prod.g.cs
+E:\POS\POS\obj\Debug\Register.g.cs
+E:\POS\POS\obj\Debug\SalePage.g.cs
+E:\POS\POS\obj\Debug\supervisor.g.cs
+E:\POS\POS\obj\Debug\Supp.g.cs
+E:\POS\POS\obj\Debug\App.g.cs
+E:\POS\POS\obj\Debug\POS_MarkupCompile.cache
+E:\POS\POS\obj\Debug\POS_MarkupCompile.lref
+E:\POS\POS\obj\Debug\App.baml
+E:\POS\POS\obj\Debug\AdminHome.baml
+E:\POS\POS\obj\Debug\AdminOptions.baml
+E:\POS\POS\obj\Debug\Cat.baml
+E:\POS\POS\obj\Debug\emp.baml
+E:\POS\POS\obj\Debug\history.baml
+E:\POS\POS\obj\Debug\Home.baml
+E:\POS\POS\obj\Debug\MainWindow.baml
+E:\POS\POS\obj\Debug\Prod.baml
+E:\POS\POS\obj\Debug\Register.baml
+E:\POS\POS\obj\Debug\SalePage.baml
+E:\POS\POS\obj\Debug\supervisor.baml
+E:\POS\POS\obj\Debug\Supp.baml
+E:\POS\POS\obj\Debug\POS.g.resources
+E:\POS\POS\obj\Debug\POS.Properties.Resources.resources
+E:\POS\POS\obj\Debug\POS.csproj.GenerateResource.cache
+E:\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+E:\POS\POS\obj\Debug\POS.csproj.CopyComplete
+E:\POS\POS\obj\Debug\POS.exe
+E:\POS\POS\obj\Debug\POS.pdb
+C:\Users\smced\source\repos\POS\POS\obj\Debug\App.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\POS.exe
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\POS.pdb
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\DataLayer.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\ExcelLibrary.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\itextsharp.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\MaterialDesignColors.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\models.dll
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\DataLayer.pdb
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\models.pdb
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\itextsharp.xml
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Sandile Cedric\source\repos\POS\POS\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.csprojAssemblyReference.cache
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\MainWindow.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\AdminHome.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\AdminOptions.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Cat.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\emp.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\history.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Home.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\MainWindow.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Prod.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Register.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\SalePage.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\supervisor.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Supp.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\App.g.cs
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS_MarkupCompile.cache
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS_MarkupCompile.lref
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\App.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\AdminHome.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\AdminOptions.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Cat.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\emp.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\history.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Home.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Prod.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Register.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\SalePage.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\supervisor.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\Supp.baml
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.g.resources
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.csproj.GenerateResource.cache
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.csproj.CopyComplete
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.exe
+C:\Users\Sandile Cedric\source\repos\POS\POS\obj\Debug\POS.pdb

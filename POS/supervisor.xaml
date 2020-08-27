@@ -1,0 +1,36 @@
+﻿<Window x:Class="POS.supervisor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POS"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" 
+        Title="supervisor"  Height="600" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  >
+    <Grid>
+        <DockPanel LastChildFill="False" Width="800" Grid.RowSpan="2">
+            <Grid DockPanel.Dock="Top" Background="Teal" Height="65">
+                <Label Content="Supervisor" HorizontalAlignment="Left" Margin="319,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.865,1.022"
+                        FontSize="25" Foreground="#fff"/>
+                <Button Content="Logout" HorizontalAlignment="Left" Margin="662,0,0,8" VerticalAlignment="Bottom" Width="86" Height="47" Foreground="#fff" Background="Teal" BorderBrush="#fff" Click="Button_Click_3"/>
+            </Grid>
+            <!-- Style="{StaticResource btnStyling}" -->
+            <Grid DockPanel.Dock="Left"  Background="#fff" Width="794" Margin="0,5,0,65">
+                <Button Content="Go To Cashier" HorizontalAlignment="Left" Margin="41,132,0,0" VerticalAlignment="Top" Width="188" Height="83"
+                       BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="Button_Click"/>
+                <Button Content="Go To Admin" HorizontalAlignment="Left" Margin="576,132,0,0" VerticalAlignment="Top" Width="188" Height="83"
+                        BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="Button_Click_1"/>
+                <Button Content="View Records" HorizontalAlignment="Left" Margin="306,132,0,0" VerticalAlignment="Top" Width="188" Height="83"
+                        BorderBrush="#fff" Background="Teal" Foreground="#fff" Click="Button_Click_2"/>
+                <!--<Image HorizontalAlignment="Left" Height="84" Margin="356,19,0,0" VerticalAlignment="Top" Width="98"
+                       Source="/POS;component/img/manager.png"/>-->
+                <materialDesign:PackIcon Kind="AccountCircle" HorizontalAlignment="Left" Height="84" Margin="356,10,0,0" VerticalAlignment="Top" Width="98" Foreground="Teal"/>
+                <Separator HorizontalAlignment="Left" Background="Teal" Height="38" Margin="0,316,0,0" VerticalAlignment="Top" Width="794"/>
+            </Grid>
+            <Grid DockPanel.Dock="Bottom"  Background="Teal" Height="65" Margin="-794,0,0,0">
+                <Label Content="Copyright reserved @ Sandile Cedric 2018" HorizontalAlignment="Left" Margin="280,10,0,0" Foreground="#fff" FontSize="15" VerticalAlignment="Top" RenderTransformOrigin="1.316,0.308"/>
+
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

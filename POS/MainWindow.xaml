@@ -1,0 +1,45 @@
+﻿<Window x:Class="POS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Aula 4 -TextBox " Height="600" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto" >
+
+    <Grid Margin="0,0,0,-1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="/POS;component/img/bg_img2.png" Stretch="UniformToFill"/>
+        </Grid.Background>-->
+        <Label Content="Login" HorizontalAlignment="Left" Margin="341,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.487,1" FontSize="35" Foreground="Teal" />
+        <!--<Line X1="800" Y1="70" Y2="70" Stroke="Teal" StrokeThickness="2" />-->
+        <Label Content="Username" HorizontalAlignment="Left" Margin="62,174,0,-24" Grid.Row="2" VerticalAlignment="Top" FontSize="20" Foreground="Teal"/>
+
+        <Label Content="Password" HorizontalAlignment="Left" Margin="62,223,0,-44" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.145,2.297" FontSize="20" Foreground="Teal"/>
+        <TextBox x:Name="username" Margin="242,176,226,0" RenderTransformOrigin="0.5,0.5" Grid.Row="2" Foreground="Teal" VerticalAlignment="Top" Background="Transparent" Height="25" />
+
+        <!--<Image HorizontalAlignment="Left" Height="125" Margin="344,22,0,-5" Grid.Row="2" VerticalAlignment="Top" Width="134"
+               Source="/POS;component/img/user3.png" />-->
+        <materialDesign:PackIcon Kind="AccountCircle" HorizontalAlignment="Left" Height="96" Margin="322,29,0,0" Grid.Row="2" VerticalAlignment="Top" Width="158" Foreground="Teal" RenderTransformOrigin="0.388,0.532"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="242,287,0,-105" Grid.Row="2" VerticalAlignment="Top" Width="332" Height="32" Click="Button_Click" IsDefault="True" Background="Teal" Foreground="#fff" BorderBrush="#fff" />
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="242,225,0,-39" Grid.Row="2" VerticalAlignment="Top" Width="332" Height="25" Background="Transparent" Foreground="Teal" />
+        <Separator HorizontalAlignment="Left" Height="26" Margin="0,371,0,-168" Grid.Row="2" VerticalAlignment="Top" Width="800" Background="Teal"/>
+        <Label Content="Copyright reserved @ Sandile Cedric 2018" HorizontalAlignment="Left" Margin="212,417,0,-184" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.925,0.426" FontSize="20" Foreground="Teal"/>
+        <Separator HorizontalAlignment="Left" Height="26" Margin="0,57,0,0" VerticalAlignment="Top" Width="790" Grid.RowSpan="3" Background="Teal"/>
+        <!--<Button Content="Register" HorizontalAlignment="Left" Margin="242,339,0,-197" Grid.Row="2" VerticalAlignment="Top" Width="332" Height="28"
+                Style="{StaticResource btnStyling}" Click="Button_Click_1"/>-->
+
+    </Grid>
+</Window>
